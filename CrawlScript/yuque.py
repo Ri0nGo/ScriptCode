@@ -75,6 +75,7 @@ class ExportYueQueDoc:
     def save_article(self, result, repos_name, title):
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         dir_path = f"{self.data_path}/{repos_name}"
+
         filepath = dir_path + f"/{title}.md"
         dir_ret = os.path.exists(dir_path)
         if not dir_ret:
@@ -94,7 +95,8 @@ class ExportYueQueDoc:
         repos_list = self.get_repos_data()
         gen_obj = self.get_article_data(repos_list)
         for item in gen_obj:
-            self.save_article(item[0], item[1], item[2])
+            title = item[2].replace("\n", "").replace("<", "").replace(">", "").replace("/", "").replace("\\", "").replace("?", "").replace("|", "").replace(":", "").replace("*", "").replace('"', "")
+            self.save_article(item[0], item[1], title)
     
 
 if __name__ == "__main__":
