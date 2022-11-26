@@ -1,6 +1,7 @@
 # 脚本仓库
 
 ## 语雀脚本
+> yueque Script
 ```
 {
     "TOKEN": "xxxxxxxx",                                # 用户token
@@ -10,3 +11,4 @@
 }
 ```
 > exe程序在Tool文件夹中
+> exe program in Tools folder
