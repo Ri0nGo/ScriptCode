@@ -1,0 +1,6 @@
+{
+    "TOKEN": "Token123456",
+    "USER_AGENT": "Rion",
+    "BASE_URL": "https://customspace.yuque.com/api/v2",
+    "DATA_PATH": "yuque"
+}
