@@ -1,6 +1,7 @@
 # 遇到错误就停止执行后续指令
 # set -o errexit
 # pgsql容器id
+# postgres_container_id=$(docker ps -a | grep postgresql | grep container | awk '{print $1; exit}')
 postgres_container_id=c15a72b63fcc
 # 数据库备份目录
 data_dir=/root/pgdata_backup/

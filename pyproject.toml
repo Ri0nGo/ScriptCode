@@ -5,11 +5,10 @@ description = ""
 authors = ["rion"]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.11"
+python = ">=3.8"
 requests = "^2.28.1"
 psutil = "^5.9.3"
 pyinstaller = "4.10"
-cython = "^0.29.33"
 
 [tool.poetry.dev-dependencies]
 

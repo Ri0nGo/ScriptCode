@@ -6,7 +6,6 @@ import sys
 import os
 import re
 import requests
-import psutil
 from datetime import datetime
 
 if getattr(sys, 'frozen', False):
