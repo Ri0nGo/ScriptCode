@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pg-to-clickhouse"
+version = "0.1.0"
+description = ""
+authors = ["Lu Xianghui <xianghui.lu@data-turing.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg2 = "^2.9.9"
+clickhouse-connect = "^0.7.8"
+
+[[tool.poetry.source]]
+name = "ali"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
