@@ -121,8 +121,11 @@ docker run -it --name etcd-server \
 -d bitnami/etcd
 ```
 > --env ETCD_LISTEN_CLIENT_URLS 接收client的ip地址
+> 
 > --env ETCD_ADVERTISE_CLIENT_URLS 本机的IP
+> 
 > --env ETCD_USERNAME 设置用户名
+> 
 > --env ETCD_PASSWORD 设置密码
 
 # MySQL
