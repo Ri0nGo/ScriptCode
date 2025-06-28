@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mysql8:
+    image: mysql:8.0.32
+    container_name: mysql8
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /Users/rion/Data/DockerVolumesData/mysql8:/var/lib/mysql

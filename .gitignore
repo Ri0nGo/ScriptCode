@@ -4,3 +4,4 @@
 **/settings
 CrawlScript/yuque/config-prod.json
 .DS_Store
+.idea
