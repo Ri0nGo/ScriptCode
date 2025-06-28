@@ -1,0 +1,21 @@
+{
+    "INTERVAL": 5,
+    "PGSQL_DATA": {
+        "DB": "<DB_NAME>",
+        "USER": "<USERNAME>",
+        "PORT": <PORT>,
+        "PASSWORD": "<PASSWORD>",
+        "HOST": "<HOST>"
+    },
+    "CLICKHOUSE": {
+        "DB": "<DB_NAME>",
+        "USER": "<USERNAME>",
+        "PORT": <PORT>,
+        "PASSWORD": "<PASSWORD>",
+        "HOST": "<HOST>",
+        "TABLE": "<TABLE_NAME>"
+    },
+    "ORDERS": [
+        "ORDER_01"
+    ]
+}
